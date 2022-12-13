@@ -1,7 +1,6 @@
 require('dotenv').config();
 const express = require('express')
 const cors = require('cors');
-const fileUpload = require('express-fileUpload');
 const dbConnection = require('../database/config');
 class Server{
 
