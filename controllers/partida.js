@@ -1,7 +1,6 @@
 const Partida = require('../models/partida')
 
 const partidaPost = async(req, res) =>{
-
     const {partida,categoria} = req.body
     const NewPartida = new Partida({partida, categoria})
     await NewPartida.save()
